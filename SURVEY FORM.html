@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" /> 
+        <title>Formato de formulario</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head> 
+
+   <body>
+        <form id="survey-form">
+            <h1 id="title">Asistencia en proyectos de arquitectura</h1>
+                 <p id="description">Por favor complete sus datos</p>
+        
+        <div class="input-elements">
+            <label id="name-label"> Nombre </label>
+                <input id="name" type="text" placeholder="Enter your name" required> </input>
+        </div>
+
+        <div class="input-elements">
+            <label id="email-label"> Email</label>
+                <input id="email" type="email" placeholder="Enter your email" required> </input>
+        </div>
+
+        <div class="input-elements">
+            <label id="number-label"> Edad </label>
+                <input id="number" type="number" placeholder="Enter your age" min="10" max="200" required> </input>
+        </div>
+
+        <div class="input-elements">
+            <label>¿Qué tipo de servicio desea?</label>
+        </div>
+
+        <div class="input-elements">
+            <select id="dropdown">
+                <option>Selección actual</option>
+                <option>Levantamiento en 2D de oficinas y/o espacios</option>
+                <option>Modelado 3D</option>
+                <option>Presupuestos y análisis de precios unitarios</option>
+                <option>Cómputos métricos</option>
+                <option>Renderizado</option>
+                <option>Remodelación</option>
+                <option>Otro</option>
+            </select>
+        </div>
+
+        <div class="input-elements">
+            <label>¿En qué zona se encuentra?</label>
+            <label><input type="radio" name="ciudad"></input>Caracas</label>
+            <label><input type="radio" name="ciudad"></input>Miranda</label>
+            <labek><input type="radio"  name="ciudad"></input>Otro</label>
+        </div>
+
+        <div>
+        <label>¿En qué municipio se encuentra la obra?</label>
+        <select id="dropdown">
+        <option>Selecciona una opción</option>
+        <option>Libertador</option>
+        <option>Chacao</option>
+        <option>Sucre</option>
+        <option>Baruta</option>
+        <option>El Hatillo</option>
+        <option>Otro</option>
+        </select>
+        </div>
+
+
+        <div class="input-elements">
+        <label for="attribute"> ¿Cómo nos contactó? </label>
+        <label><input id="attribute" type="checkbox"> Recomendación por un amigo</input> </label>
+        <label><input id="attribute" type="checkbox"> LinkedIn</input> </label>
+        <label><input id="attribute" type="checkbox"> Página Web</input> </label>
+        <label><input id="attribute" type="checkbox"> Otro</input> </label>
+        </div>
+
+        <div >
+            <label>¿Alguna información adicional?</label>
+        </div>
+        <div class="input-elements">
+            <textarea placeholder="Enter your comment here..."></textarea>
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+        
+             </div>
+        </form>
+    </body>
+</html>

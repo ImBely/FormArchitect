@@ -1,0 +1,64 @@
+.container {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    text-align: center;
+    margin: 0;
+    background-image: url("pictures/unsplash.jpg");
+}
+
+@media (min-width: 1080px) { 
+    form {
+    text-align: center;
+    background: rgba(157, 198, 238, 0.2);
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+}
+input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-elements {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 0;
+}
+
+select{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    background: rgb(193, 174, 197);
+    font-style:white;
+    border-radius: 5px;
+    border:none;
+}
+
+input[type="checkbox"] {
+    padding: initial;
+    border: initial;
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+input[type="radio"] {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+}
+
+label {
+    display: block;
+    margin:0.5rem 0;
+}
